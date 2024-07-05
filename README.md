@@ -1,2 +1,2 @@
 # AlliancePay-Task
-A one page web app for Transalliance group cross-border payment Solution
+A one page web app for Transalliance group cross-border payment Solution.
