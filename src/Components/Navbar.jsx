@@ -1,8 +1,8 @@
 import React from 'react'
-import Buttons from './Buttons';
 import './Navbar.css'
 import Allianzlogo from '../assets/page1/Allianzlogo.png';
 import getstartedarrow from '../assets/page1/getstartedarrow.png';
+
 
 const Navbar = () => {
   return (

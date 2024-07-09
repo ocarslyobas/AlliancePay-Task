@@ -10,21 +10,24 @@ import Sectors from './Segments/Sectors';
 import Contact from './Segments/Contact';
 import Footer from './Components/Footer';
 
+
 function App() {
  
 
   return (
+    
     <>
-      <Landing/>
-      <Promo/>
-      <About/>
-      <Postcard/>
-      <Services/>
-      <Postcard2/>
-      <Sectors/>
-      <Contact/>
-      <Footer/>
+   <Landing/>
+    <Promo/>
+    <About/>
+    <Postcard/>
+    <Services/>
+    <Postcard2/>
+    <Sectors/>
+    <Contact/>
+    <Footer/>
     </>
+    
   )
 }
 
