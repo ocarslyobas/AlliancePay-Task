@@ -1,0 +1,276 @@
+.about-us-container{
+
+    min-width: 100%;
+    min-height: 100vh;
+    position: relative;
+    
+}
+
+.about-header p{
+
+    position: absolute;
+    width: 118px;
+    height: 24px;
+    left: 100px;
+    top: 16px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 18.65px;
+    line-height: 24px;
+    letter-spacing: 0.2em;
+    color: #858585;
+
+}
+
+.payment-pathway h1{
+
+    position: absolute;
+    width: 550px;
+    height: 100px;
+    right: 80px;
+    top: 0px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 55px;
+    line-height: 50px;
+    color: #122038;
+
+}
+
+.text p{
+
+    position: absolute;
+    width: 550px;
+    height: 150px;
+    right: 80px;
+    top: 112px;
+    font-family: 'DM Sans';
+    font-weight: 900;
+    font-size: 18px;
+    color: #757575;
+    opacity: 0.8;
+}
+
+.money-out{
+    
+    position: absolute;
+    width: 319px;
+    height: 144px;
+    left: -30px;
+    top: 322px;
+}
+
+.moneyout-botton{
+
+    position: absolute;
+    width: 250px;
+    height: 80px;
+    left: 80px;
+    top: -100px;
+    background: linear-gradient(263.68deg, #5AAF87 4.04%, #D3BD00 127.52%);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(9.5px);
+    border-radius: 20px;
+    font-weight: bold;
+    letter-spacing: 5px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    gap: 40px;
+    border:none;
+
+}
+
+.image1{
+
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    left: 100px;
+    top: 362px;
+    background: #FFFFFF;
+    border-radius: 20px;
+    
+}
+
+
+
+.btn1{
+    position: absolute;
+    box-sizing: border-box;
+    position: absolute;
+    width: 280px;
+    height: 55px;
+    left: 30px;
+    top: 283px;
+    background: rgba(255, 255, 255, 0.7);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(9.5px);
+    border-radius: 20px;
+    font-weight: bold;
+    font-family: 'DM sans';
+    border: none;
+
+}
+
+.image2{
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 350px;
+    height: 300px;
+    left: 900px;
+    top: 280px;
+    background: linear-gradient(3.68deg, #5AAF87 4.04%, #D3BD00 127.52%);
+    border-radius: 20px;
+    display: flex;
+    flex-direction: column;
+
+
+}
+
+.btn2{
+
+    
+    box-sizing: border-box;
+    position: absolute;
+    width: 300px;
+    height: 55px;
+    left: -40px;
+    top:288px;
+    background: rgba(255, 255, 255, 0.8);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(9.5px);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'DM sans';
+    border: none;
+
+}
+
+.image3{
+
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 500px;
+    top: 700px;
+    border: 1px solid black;
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    background: linear-gradient(269.18deg, #F27405 6.87%, #D3BD00 118.13%)
+
+}
+
+.img3{
+    margin-top: -50px;
+}
+
+.btn3{
+
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 273px;
+    height: 55px;
+    left:-125px;
+    top:55px;
+    background: rgba(255, 255, 255, 0.7);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(9.5px);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'DM sans';
+    border: none;
+
+}
+
+.image4{
+
+    position: absolute;
+    width: 300px;
+    height: 300px;
+    left: 870px;
+    top: 700px;
+    background: #FFFFFF;
+    border-radius: 20px;
+
+}
+
+.btn4{
+
+    box-sizing: border-box;
+    position: absolute;
+    width: 280px;
+    height: 56px;
+    left: 37px;
+    bottom: -50px;
+    background: rgba(255, 255, 255, 0.8);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(9.5px);
+    border-radius: 20px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    font-weight: bold;
+    font-family: 'DM sans';
+    border: none;
+
+}
+
+.learn-container{
+
+    width: 140px;
+    height: 53px;
+    background: rgba(138, 138, 138, 0.3);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(40px);
+    border-radius: 20px;
+    font-size: 24px;
+    font-family: 'DM sans';
+    font-weight: bold;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #FFFFFF;
+    border: none;
+    position: absolute;
+    top: 1100px;
+    right: 90px;
+
+}
+
+.Learn-btn{
+    width: 100%;
+    height: 100%;
+    background: linear-gradient(264.61deg, #24343E -97.02%, #5AAF87 133.21%);
+    mix-blend-mode: normal;
+    backdrop-filter: blur(9.5px);
+    border-radius: 20px;
+    border: none;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-family: 'DM sans';
+    font-weight: bold;
+}
+
+h3{
+    font-family: 'DM sans';
+    padding-bottom: 20px;
+}
+
+p{
+    font-size: 14px;
+    font-family: 'DM sans';
+
+}

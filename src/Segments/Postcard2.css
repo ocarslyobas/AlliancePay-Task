@@ -1,0 +1,71 @@
+
+
+.Postcard2-container{
+    position: relative;
+    width: 100%;
+    height: 532px;
+    top: 200px;
+    display: flex;
+}
+
+.card1-container{
+    position: absolute;
+    width: 55%;
+    height: 530px;
+    background: #122038;
+    border-top-right-radius: 20px
+}
+
+
+.card1-logo{
+
+    position: absolute;
+    width: 60px;
+    height: 60px;
+    left:20px;
+    top: 20px;
+}
+
+.card1-img{
+    position: absolute;
+    width: 100%;
+    height: 364px;
+    left: 80px;
+    bottom: 20px;
+}
+
+.card2-container{
+    position: absolute;
+    width: 45%;
+    height: 400px;
+    right: 0px;
+    top: 130px;
+    background: #5FB083;
+}
+
+.card2-header{
+    width: 561px;
+    height: 93px;
+    font-family: 'Gayathri';
+    font-weight: 700;
+    font-size: 40px;
+    color: #0F0F0F;
+    padding-left: 20px;
+    position: absolute;
+    top: 90px;
+}
+    
+
+.card2-text{
+    width: 633px;
+    height: 349px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 500;
+    font-size: 18px;
+    line-height: 36px;
+    color: #0F0F0F;
+    padding-left: 40px;
+    position: absolute;
+    bottom: -150px;
+}

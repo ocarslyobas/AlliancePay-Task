@@ -1,0 +1,71 @@
+
+.footer-container{
+    width: 100%;
+    position: relative;
+    height: 400px;
+    top: 300px;
+    background: #ffff;
+}
+
+.functions{
+    
+    display: grid;
+    padding-top: 10px;
+    grid-template-columns: 1fr 1fr 1fr 1fr 1fr;
+}
+
+.function1{
+    display: flex;
+    flex-direction: column;
+    position: relative;
+}
+
+.logo-text{
+    display: flex;
+    position: absolute;
+    left: -150px;
+    gap: 40px;
+
+}
+
+.Learn2-btn{
+    
+        width: 120px;
+        height: 40px;
+        background: linear-gradient(264.61deg, #24343E -97.02%, #5AAF87 133.21%);
+        mix-blend-mode: normal;
+        backdrop-filter: blur(9.5px);
+        border-radius: 8px;
+        border: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        font-family: 'DM sans';
+        font-weight: bold;
+        position: absolute;
+        top: 140px;
+        cursor: pointer;
+   
+}
+
+.nav-logo{
+    width: 50px;
+    height: 50px;
+    position: relative;
+    cursor: pointer;
+    
+}
+
+.socials{
+    float: right;
+    padding-right: 150px;
+}
+
+.social-icins{
+    cursor: pointer;
+    position: inherit;
+}
+
+
+
+

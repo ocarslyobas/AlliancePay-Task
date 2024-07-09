@@ -1,0 +1,118 @@
+
+.postcard-container{
+
+    position: relative;
+    width: 100%;
+    height: 532px;
+    top: 600px;
+    display: flex;
+
+}
+
+.card1{
+
+    position: absolute;
+    width: 48%;
+    height: 324px;
+    left: px;
+    top: 205px;
+    background: #5FB083;
+
+    
+}
+
+
+.card1-content{
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    padding: 0px;
+    gap: 12px;
+    position: absolute;
+    width: 313px;
+    height: 298px;
+    left: 250px;
+    top: 77px;
+    
+
+}
+
+.headers-text p{
+
+    width: 313px;
+    height: 86px;
+    font-family: 'DM Sans';
+    font-weight: 500;
+    font-size: 30px;
+    line-height: 42px;
+    color: #0F0F0F;
+    flex: none;
+    
+}
+
+.p-text{
+
+    width: 313px;
+    height: 154px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 900;
+    font-size: 14px;
+    line-height: 22px;
+    color: #0F0F0F;
+   
+
+}
+
+
+.Learncard-btn{
+       
+    display: flex;
+    align-items: center;
+    justify-content:space-around ;
+    background: linear-gradient(263.68deg, #5AAF87 4.04%, #D3BD00 127.52%);
+    width: 200px;
+    height: 20px;
+    border: none;
+    border-top-left-radius: 20px;
+    border-top-right-radius: 20px;
+    position: absolute;
+    bottom: 49px;
+
+    
+
+}
+
+.card2{
+
+    position: absolute;
+    width: 51%;
+    height: 530px;
+    left: 660px;
+    top: 0px;
+    background: #122038;
+    border-top-left-radius: 20px
+    
+
+}
+
+.card2-img{
+
+    position: absolute;
+    width: 100%;
+    height: 364px;
+    left: px;
+    top: 80px;
+
+}
+
+.card2-logo{
+    
+    position: absolute;
+    width: 77px;
+    height: 86px;
+    right:10px;
+    top: 30px;
+
+}

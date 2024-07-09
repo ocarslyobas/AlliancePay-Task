@@ -18,12 +18,12 @@ const Landing = () => {
                 <div className="gold-text">
                     <p>Simplified cross-border payment</p>
                 </div>
-                <div className="header-text">
-                    <p>We are the payments people</p>
+                <div className="header-text1">
+                    <p id='header-text1' >We are the <br/> payments people</p>
                 </div>
                 <div className="info-text">
-                    <p> Transalliance Group.’s cross-border payments solutions connect organisations   
-                        and communities globally to the network they need to thrive. 
+                    <p> Transalliance Group.’s cross-border payments solutions connect <br/> 
+                        and communities globally to the network they need to thrive.<br/> 
                         Together, we make money move.
                     </p>
                 </div>
@@ -34,13 +34,16 @@ const Landing = () => {
             </div>
             <div className="landingimage">
                     <div className="img24">
-                        <img className='img1' src={image24} alt="" />
+                        <img className='img1' src={image24} alt="image-loading" />
                     </div>
                     <div className="landingpageimage">
-                        <img className='img2' src={Landingpageimage} alt="" />
+                        <img className='img2' src={Landingpageimage} alt="image-loading" />
                     </div>
                     
             </div>
+        </div>
+        <div className="diagonal-line">
+            
         </div>
 
         <div className="base-landing-container">

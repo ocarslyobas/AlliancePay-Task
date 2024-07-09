@@ -1,8 +1,15 @@
-:root {
-  font-family: DM Sans, system-ui, Avenir, Helvetica, Arial, sans-serif;
-  --P-text-clr: #ffff;
-  --Text-clr: black;
+/* src/index.css or src/App.css */
+@import url('https://fonts.googleapis.com/css2?family=DM+Sans:wght@400;500;700&display=swap');
+
+@import url('https://fonts.googleapis.com/css2?family=Gayathri:wght@100;400;700&display=swap');
+
+
+body {
+    font-family: 'DM Sans', 'sans-serif','Gayathri';
 }
+
+
+
 
 
 

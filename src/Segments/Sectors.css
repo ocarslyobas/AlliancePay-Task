@@ -1,0 +1,95 @@
+
+.sectors-container{
+   
+    width: 100%;
+    position: relative;
+    top: 200px;
+}
+
+.sector-textcontent{
+    
+    max-width: 700px;
+    max-height: auto;
+    margin-top: 100px;
+    margin-left: 80px;
+}
+
+/* Sectors we serve */
+.header{
+
+    width: 700px;
+    height: 78px;
+    font-family: 'Gayathri';
+    font-style: normal;
+    font-weight: 700;
+    font-size: 40px;
+    line-height: 73px;
+    color: #0F0F0F;
+}
+
+/* We simplify the complexities of cross-border payments in some of the world’s most demanding sectors. Learn more about who we serve and how we add value below. */
+.paragraph-text{
+
+    width: 700px;
+    height: 126px;
+    font-family: 'DM Sans';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    color: #757575;
+    }
+
+    .sector-images{
+        display: flex;
+        flex-wrap: wrap;
+        gap: 40px;
+        padding: 0px 80px 0px 80px
+    }
+
+    .sector-img{
+        max-width:500px;
+        min-height: 300px;
+    }
+
+    .banner{
+
+        box-sizing: border-box;
+        position: relative;
+        width: 100%;
+        height: 300px;
+        background: #122038;
+        border-radius: 0px 0px 20px 0px;
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+        align-items: center;
+        gap: 35px;
+        top: 60px;
+
+    }
+
+    .banner-text{
+
+        width: 600px;
+        height: 94px;
+        font-family: 'DM Sans';
+        font-weight: 400;
+        font-size: 24px;
+        text-align: center;
+        color: #F5F5F5;
+        
+
+    }
+
+    .banner-head{
+
+        width: 636px;
+        height: 26px;
+        font-family: 'Gayathri';
+        font-style: normal;
+        font-weight: 700;
+        font-size: 40px;
+        line-height: 26px;
+        color: #F5F5F5;
+        text-align: center;
+    }
