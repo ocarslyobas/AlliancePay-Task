@@ -1,10 +1,8 @@
 
 import React from 'react';
 import './Sectors.css';
-import Sectorimage1 from '../assets/page4/Sectorimage1.png';
-import Sectorimage2 from '../assets/page4/Sectorimage2.png';
-import Sectorimage3 from '../assets/page4/Sectorimage3.png';
-import Sectorimage4 from '../assets/page4/Sectorimage4.png';
+import { Sectorimage1,Sectorimage2,Sectorimage3,Sectorimage4 } from '../assets/imgAssets.Js';
+
 
 const Sectors = () => {
   return (

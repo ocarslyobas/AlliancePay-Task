@@ -1,8 +1,7 @@
 import React from 'react';
 import './Postcard.css';
-import womanwithlaptop from '../assets/page3/womanwithlaptop.png';
-import Allianzlogo from '../assets/page1/Allianzlogo.png';
-import Discovermorearrow from '../assets/page1/Discovermorearrow.png';
+import { womanwithlaptop,Allianzlogo,Discovermorearrow } from '../assets/imgAssets.Js';
+
 
 const Postcard = () => {
   return (

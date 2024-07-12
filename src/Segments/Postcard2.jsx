@@ -1,7 +1,7 @@
 import React from 'react';
 import './Postcard2.css';
-import tabimage from '../assets/page4/tabimage.png';
-import Allianzlogo from '../assets/page1/Allianzlogo.png';
+import { Allianzlogo,tabimage } from '../assets/imgAssets.Js';
+
 
 const Postcard2 = () => {
   return (

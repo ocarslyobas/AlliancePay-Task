@@ -1,10 +1,7 @@
 import React from 'react';
 import './About.css';
-import Discovermorearrow from '../assets/page1/Discovermorearrow.png';
-import p2manwalking from '../assets/page2/p2manwalking.png';
-import portraitcorporatewoman1 from '../assets/page2/portraitcorporatewoman1.png';
-import phoneimage from '../assets/page2/phoneimage.png';
-import smiling from '../assets/page2/smiling.png';
+import { Discovermorearrow,p2manwalking,portraitcorporatewoman1,phoneimage,smiling } from '../assets/imgAssets.Js';
+
 
 const About = () => {
   return (

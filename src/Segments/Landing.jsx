@@ -1,10 +1,8 @@
 import React from 'react';
 import './Landing.css';
+import { Discovermorearrow,Landingpageimage,image24,Travelconceptwithdocuments } from '../assets/imgAssets.Js';
 import Navbar from '../Components/Navbar';
-import Discovermorearrow from '../assets/page1/Discovermorearrow.png';
-import Landingpageimage from '../assets/page1/Landingpageimage.png';
-import image24 from '../assets/page1/image24.png';
-import Travelconceptwithdocuments from '../assets/page1/Travelconceptwithdocuments.png';
+
 
 const Landing = () => {
   return (

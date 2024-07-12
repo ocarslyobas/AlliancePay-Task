@@ -2,11 +2,8 @@
 
 import React from 'react';
 import './Services.css';
-import serviceslovehand from '../assets/page4/serviceslovehand.png';
-import servicesnetwork from '../assets/page4/servicesnetwork.png';
-import servicessecurity from '../assets/page4/servicessecurity.png';
-import servicesexpert from '../assets/page4/servicesexpert.png';
-import servicesmain from '../assets/page4/servicesmain.png';
+import { serviceslovehand,servicesnetwork,servicessecurity,servicesexpert,servicesmain } from '../assets/imgAssets.Js';
+
 
 const Services = () => {
   return (
