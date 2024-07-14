@@ -1,7 +1,7 @@
 import React from 'react';
 import './Navbar.css';
 import { getstartedarrow,Allianzlogo } from '../assets/imgAssets.Js';
-import {IoMenu} from 'react-icons/io5';
+import { GiHamburgerMenu } from "react-icons/gi";
 import {MdCancel} from 'react-icons/md';
 import {useState} from 'react';
 
@@ -39,7 +39,7 @@ const Navbar = () => {
           </div>
 
           <div className="menu"onClick={()=> (setIsActive(true))}>
-          <IoMenu />
+          <GiHamburgerMenu />
           </div>
             <div className={`mobilemenuicon ${isActive?"active":""}`}>
             <div className='nav-logo2'><img src={Allianzlogo} alt="" /></div>
