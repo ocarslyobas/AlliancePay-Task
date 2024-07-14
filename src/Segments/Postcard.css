@@ -14,7 +14,6 @@
     position: absolute;
     width: 48%;
     height: 324px;
-    left: px;
     top: 205px;
     background: #5FB083;
 
@@ -114,5 +113,108 @@
     height: 86px;
     right:10px;
     top: 30px;
+
+}
+
+/* responsive media query for ipads */
+
+
+@media (max-width:1025px){
+
+    .postcard-container{
+        top: 0px;
+    }
+
+    .card1-content{
+        left: 0px;
+        max-width: 100%;
+        align-items: center;
+        padding-left: 30px;
+        padding-right: 30px;
+        text-wrap: wrap;
+    }
+
+    .card1{  
+        width:50%;   
+    }
+
+    .card2{
+        
+        left: 50%;
+    }
+
+    .headers-text p{
+        font-weight: 900;
+    }
+
+    .p-text p{
+        font-size: 18px;
+        font-weight: 400;
+    }
+
+}
+
+/* responsive media query for ipads */
+
+
+@media (max-width:640px){
+
+    .postcard-container{
+
+        position: relative;
+        max-width: 100%;
+        min-height: 532px;
+        top: 0px;
+        display: block;
+        top: 200px;
+    
+    }
+
+    .card1-content{
+        width: 100%;
+        padding: 0px;
+        margin: 0px;
+    }
+
+    .card1{
+        position: relative;
+        top: 0px;
+        width: 100%;
+
+    }
+
+    .card2{
+        position: relative;
+        left: 0px;
+        width: 100%;
+    }
+
+    .headers-text {
+        text-align: center;
+    }
+    .headers-text p{
+       width: 100%;
+       color: #201f36;
+       line-height: 30px;
+       height: fit-content;
+       font-size: 40px;
+       margin-bottom: 10px;
+       text-wrap: wrap;
+
+       
+    }
+
+    .p-text {
+        width: 300px;    
+    }
+
+    .p-text p{
+        color:#201f36;
+        font-size: 23px;
+        font-family: 'DM sans';
+        bottom: 10px;
+        
+    }
+
 
 }

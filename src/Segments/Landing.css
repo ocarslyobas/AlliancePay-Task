@@ -1,9 +1,9 @@
 .landing-container{
     position: relative;
-    width: 100%;
+    max-width: 100%;
     min-height: 100vh;
     background: #122038;
-    margin: 0px;
+    margin-inline: auto;
     padding-top: 30px;
     
 }

@@ -5,7 +5,7 @@ import { Discovermorearrow,p2manwalking,portraitcorporatewoman1,phoneimage,smili
 
 const About = () => {
   return (
-    <div className='about-us-container'>
+    <div className='about-us-container' id='about-session'>
 
         <div className="about-header">
             <p>About Us</p>
@@ -27,19 +27,19 @@ const About = () => {
                     <button className='moneyout-botton'>Money Out <span><img src={Discovermorearrow} alt="loading" /></span></button>
         </div>
         <div className="image1">
-            <img src={p2manwalking} alt="loading.." style={{width:350, height:300}} />
+            <img className='img' src={p2manwalking} alt="loading.." />
             <button className='btn1'>SEPA Instant, SEPA & SWIFT</button>
         </div>
         <div className="image2">
-            <img src={portraitcorporatewoman1} alt="loading.." style={{width:350, height:300}} />
+            <img className='img' src={portraitcorporatewoman1} alt="loading.." />
             <button className='btn2' >Customer portal for live transaction monitoring</button>
         </div>
         <div className="image3">
-            <img className='img3' src={smiling} alt="loading.." style={{width:300, height:350}} />
+            <img className='img3' src={smiling} alt="loading.." />
             <button className='btn3'>Danish FSA regulatedT</button>
         </div>
         <div className="image4">
-            <img src={phoneimage} alt="loading.." style={{width:350, height:300}} />
+            <img className='img' src={phoneimage} alt="loading.." />
             <button className='btn4'>90+ currencies served</button>
         </div>
 

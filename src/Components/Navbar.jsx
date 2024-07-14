@@ -23,11 +23,11 @@ const Navbar = () => {
         <div className='nav-logo'><img src={Allianzlogo} alt="" /></div>
         <div className='nav-listbox'>
             <ul>
-                <li> <a href="">Home</a></li>
-                <li> <a href="">About</a></li>
-                <li> <a href="">Solutions</a></li>
-                <li> <a href="">News & Insights</a></li>
-                <li> <a href="">ContactUs</a></li>
+                <li> <a href="#landing-session">Home</a></li>
+                <li> <a href="#about-session">About</a></li>
+                <li> <a href="#services-session">Solutions</a></li>
+                <li> <a href="#sector-session">News & Insights</a></li>
+                <li> <a href="#contact-session">ContactUs</a></li>
                 <div className='btn-div'>
                     <button className='btn'> <span className='get'>Get</span> Started 
                           <span className='started-icon'>
@@ -44,11 +44,11 @@ const Navbar = () => {
             <div className={`mobilemenuicon ${isActive?"active":""}`}>
             <div className='nav-logo2'><img src={Allianzlogo} alt="" /></div>
               <ul>
-                <li onClick={removenav}> <a href=""> Home </a></li>
-                <li onClick={removenav}> <a href=""> About</a></li>
-                <li onClick={removenav}> <a href=""> Solutions</a></li>
-                <li onClick={removenav}> <a href=""> News&Insights</a></li>
-                <li onClick={removenav}> <a href=""> ContactUs </a></li>        
+                <li onClick={removenav}> <a href="#landing-session"> Home </a></li>
+                <li onClick={removenav}> <a href="#about-session"> About</a></li>
+                <li onClick={removenav}> <a href="#services-session"> Solutions</a></li>
+                <li onClick={removenav}> <a href="#sector-session"> News&Insights</a></li>
+                <li onClick={removenav}> <a href="#contact-session"> ContactUs </a></li>        
               </ul>
               <div className="closeicon" onClick={()=> setIsActive(false)}>
               <MdCancel/>

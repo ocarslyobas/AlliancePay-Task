@@ -6,7 +6,7 @@ import Navbar from '../Components/Navbar';
 
 const Landing = () => {
   return (
-    <div className='landing-container'>
+    <div className='landing-container' id='landing-session'>
 
         <div className="nav-content">
             <Navbar/>

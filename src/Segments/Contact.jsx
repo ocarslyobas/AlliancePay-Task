@@ -7,7 +7,7 @@ import Discovermorearrow from '../assets/page1/Discovermorearrow.png';
 
 const Contact = () => {
   return (
-    <div className="form-container">
+    <div className="form-container" id='contact-session'>
 
 
         <div className="form-image">

@@ -19,4 +19,48 @@
 .promo-label-images{
     width: 180px;
     height: 80px;
+
+}
+
+
+
+
+/* for responsive i-pad screens */
+
+@media(max-width:1025px){
+
+    .promo-labels{
+
+        display: flex; 
+        flex-wrap: nowrap;
+        margin-left: 0px; 
+        margin-right: 0px;
+        width: 100%;   
+    }
+
+    .promo-labels > * {
+        flex: 1 1 100%;
+        width: 30px;
+        height: 80px;
+    }
+    
+
+}
+
+/* for responsive small i-pad screens */
+
+@media(max-width:850px) {
+
+}
+
+/* for responsive smaller i-pad screens */
+
+@media(max-width:640px){
+
+}
+
+/* responsive mobile devices */
+
+@media(max-width:460px){
+
 }

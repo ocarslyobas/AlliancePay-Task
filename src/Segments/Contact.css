@@ -73,3 +73,44 @@ h2{
 }
     
 
+/* media query for mobile screen */
+
+@media(max-width: 430px){
+
+    .form-container{  
+        top: 750px;
+        display: flex;
+        flex-direction: column;
+        gap: 0px;
+    }
+
+    .form-image{
+        min-width:390px;
+        height: 300px;
+    }
+    
+    .contact-form-image{
+        height: 100%;
+        width: 100%;
+        padding: 0px;
+        top: 20px;
+        position: relative;
+    }
+
+    .contact{
+        margin-top: 40px;
+        margin-left:-40px ;   
+        width: 100%;
+    }
+}
+
+    /* media query for ipad screen */ 
+    
+    @media(max-width: 1024px){
+        .contact{
+            margin-top: 40px;
+            margin-left:-40px ;   
+            width: 100%;
+            
+        }
+    }

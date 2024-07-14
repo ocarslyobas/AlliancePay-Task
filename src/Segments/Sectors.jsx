@@ -6,7 +6,7 @@ import { Sectorimage1,Sectorimage2,Sectorimage3,Sectorimage4 } from '../assets/i
 
 const Sectors = () => {
   return (
-    <div className='sectors-container'>
+    <div className='sectors-container' id='sector-session'>
 
         <div className="sector-textcontent">
             <p className="header">

@@ -1,6 +1,6 @@
 .about-us-container{
 
-    min-width: 100%;
+    max-width: 100%;
     min-height: 100vh;
     position: relative;
     
@@ -83,8 +83,11 @@
 
 }
 
-.image1{
 
+
+
+.image1{
+    
     position: absolute;
     width: 350px;
     height: 300px;
@@ -93,6 +96,11 @@
     background: #FFFFFF;
     border-radius: 20px;
     
+}
+
+.image1 .img{
+    width: 350px;
+    height: 300px;
 }
 
 
@@ -127,8 +135,8 @@
     border-radius: 20px;
     display: flex;
     flex-direction: column;
-
-
+    
+    
 }
 
 .btn2{
@@ -150,26 +158,33 @@
     font-weight: bold;
     font-family: 'DM sans';
     border: none;
-
+    
+}
+.image3.img3{
+    width: 350px;
+    height: 300px;
 }
 
 .image3{
-
+    
     position: absolute;
-    width: 300px;
+    width: 350px;
     height: 300px;
-    left: 500px;
-    top: 700px;
+    left: 400px;
+    top: 850px;
     border: 1px solid black;
     border-radius: 20px;
     border: none;
     display: flex;
     background: linear-gradient(269.18deg, #F27405 6.87%, #D3BD00 118.13%)
-
+    
 }
+
 
 .img3{
     margin-top: -50px;
+    width: 350px;
+    height: 300px;
 }
 
 .btn3{
@@ -197,7 +212,7 @@
 .image4{
 
     position: absolute;
-    width: 300px;
+    width: 350px;
     height: 300px;
     left: 870px;
     top: 700px;
@@ -205,6 +220,7 @@
     border-radius: 20px;
 
 }
+
 
 .btn4{
 
@@ -272,5 +288,344 @@ h3{
 p{
     font-size: 14px;
     font-family: 'DM sans';
+
+}
+
+
+
+/* for responsive i-pad screens */
+
+@media(max-width:1025px){
+
+    .payment-pathway h1{
+        right: 150px;
+        font-size: 45px;
+    }
+
+    .text p {
+        right: 150px;
+    }
+
+    .image1{
+        width: 300px;
+        height: 250px;
+        
+    }
+
+    .image1 > img{ 
+        width: 350px;
+        height: 300px;  
+    }
+    .image2{
+            left: 550px;
+        }
+    
+    .image3{
+        left: 120px;
+        top: 800px;
+        }
+
+        .image4{
+            width: 300px;
+            height: 250px;
+            left: 550px;
+        }
+        .image4 > img{ 
+            width: 300px;
+            height: 250px;
+            left: 450px; 
+        }
+
+    .learn-container{
+        right: 250px;
+        width: 150px;
+        height: 70px;
+        }
+
+    .Learn-btn{
+        height: 70px;
+        width: 200px;
+    }
+
+
+}
+
+
+
+/* responsive mobile devices */
+
+@media(max-width:850px){
+    .about-header{
+        position: absolute;
+        left: -50px;
+    }
+
+    .payment-pathway h1{
+        left: 180px;  
+    }
+
+    .text p {
+        left: 180px;
+    }
+
+    .money-out{
+        top: 340px;
+    }
+
+    .learn-container{
+        right: 200px;
+    }
+
+    
+    .image1{
+        width: 250px;
+        height: 200px;
+        left:50px
+        
+    }
+    .image1 > img{ 
+        width: 300px;
+        height: 250px;  
+    }
+
+    .image2{
+        width: 300px;
+        height: 250px;
+        left:450px;
+    }
+    .image2 > img{ 
+        width: 300px;
+        height: 250px;  
+    }
+
+    .image3{
+        width: 300px;
+        height: 250px;
+        left: 50px;
+    }
+    .img3{ 
+        width: 300px;
+        height: 250px;
+         
+    }
+
+    .image4{
+        width: 300px;
+        height: 250px;
+        left: 450px;
+    }
+    .image4 > img{ 
+        width: 300px;
+        height: 250px;
+        left: 450px; 
+    }
+
+    .btn1{
+        top: 230px;
+        width: 250px;
+        height: 50px;
+        left: 25px;
+        font-size: 10px;
+    }
+
+    .btn2{
+        top: 140px;
+        width: 150px;
+        height: 50px;
+        left: -30px;
+        font-size: 10px;
+    }
+
+    .btn3{
+        top: 230px;
+        width: 250px;
+        height: 50px;
+        left: 25px;
+        font-size: 10px;
+    }
+
+    .btn4{
+        top: 140px;
+        width: 150px;
+        height: 30px;
+        left: 0px;
+        font-size: 10px;
+    }
+
+
+}
+
+/* for responsive smaller i-pad screens */
+
+@media(max-width:640px){
+
+    .payment-pathway h1{
+        font-size: 35px;
+    }
+
+    .text p {
+        width: 470px;
+        font-size: 17px;
+    }
+
+    .image1{
+        width: 250px;
+        height: 200px;
+    }
+    .image1 .img{ 
+        width: 100%;
+        height: 100%;  
+    }
+
+    .image2{
+        width: 250px;
+        height: 200px;
+        left:350px;
+    }
+    .image2 > img{ 
+        width: 250px;
+        height: 250px;
+          
+    }
+
+    .image3{
+        width: 250px;
+        height: 200px;
+        left: 50px;
+    }
+    .img3{ 
+        width: 250px;
+        height: 300px;
+        margin-top: 0px;  
+    }
+
+    .image4{
+        width: 250px;
+        height: 200px;
+        left: 350px;
+    }
+    .image4 > img{ 
+        width: 250px;
+        height: 200px;
+         
+    }
+
+    .btn1{
+        top: 140px;
+        width: 150px;
+        height: 30px;
+        left: 0px;
+        font-size: 10px;
+    }
+
+    .btn2{
+        top: 140px;
+        width: 150px;
+        height: 30px;
+        left: 0px;
+        font-size: 10px;
+    }
+
+    .btn3{
+        top: 140px;
+        width: 150px;
+        height: 30px;
+        left: 0px;
+        font-size: 10px;
+    }
+
+    .btn4{
+        top: 140px;
+        width: 150px;
+        height: 30px;
+        left: 0px;
+        font-size: 10px;
+    }
+
+}
+
+/* responsive broad i-pad screen */
+
+@media(min-height:600px) and (max-width:1025px){
+
+    .about-us-container{
+
+        max-width: 100%;
+        min-height: 100vh;
+        position: relative;  
+    }
+}
+
+/* responsive mobile devices */
+
+@media(max-width:430px){
+
+    .payment-pathway h1{
+        font-size: 35px;
+        top: 40px;
+        left: 50px;
+        width: 300px;
+    }
+
+    .text p {
+        left: 50px;
+        top: 170px;
+        width: 330px;
+    }
+
+    .money-out{
+        top: 500px;
+    }
+
+    .image1{
+        width: 150px;
+        height: 150px;
+        top: 520px;  
+        
+    }
+    .image1 > img{ 
+        width: 150px;
+        height: 150px;
+    }
+
+    .image2{
+        width: 150px;
+        height: 150px;
+        top: 550px;
+        left: 220px;  
+        
+    }
+
+    .image2 > img{ 
+        width: 150px;
+        height: 150px;   
+    }
+
+    .image3 > img{ 
+        width: 150px;
+        height: 150px;   
+    }
+
+    .image3{
+        width: 150px;
+        height: 150px;
+        top: 750px  
+    }
+
+    .image4{
+        width: 150px;
+        height: 150px;
+        left: 220px;
+        top: 800px;  
+    }
+
+    .image4 > img{ 
+        width: 150px;
+        height: 150px;   
+    }
+
+    .learn-container{
+        top: 970px;
+        }
 
 }

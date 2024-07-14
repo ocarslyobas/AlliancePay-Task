@@ -10,11 +10,16 @@
     padding: 0px;
 }
 
+html{
+    scroll-behavior: smooth;
+}
+
 
 body {
     font-family: 'DM Sans', 'sans-serif','Gayathri';
-    
+    background: rgb(244, 237, 237);    
 }
+
 
 
 

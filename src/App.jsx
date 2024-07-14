@@ -16,17 +16,17 @@ function App() {
 
   return (
     
-    <>
-   <Landing/>
-    <Promo/>
-    <About/>
-    <Postcard/>
-    <Services/>
-    <Postcard2/>
-    <Sectors/>
-    <Contact/>
-    <Footer/>
-    </>
+        <>
+        <Landing/>
+        <Promo/>
+        <About/>
+        <Postcard/>
+        <Services/>
+        <Postcard2/>
+        <Sectors/>
+        <Contact/>
+        <Footer/>
+        </>
     
   )
 }
