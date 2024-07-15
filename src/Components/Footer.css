@@ -76,7 +76,7 @@
         width: 100%;
         position: relative;
         height: 400px;
-        top: 750px;
+        top: 1120px;
         background: #ffff;
         
     }
@@ -96,7 +96,7 @@
     .functions{
         display: grid;
         grid-template-columns: 1.2fr 1fr 1fr;
-        width: 400px;
+        width: 375px;
     }
 
 }

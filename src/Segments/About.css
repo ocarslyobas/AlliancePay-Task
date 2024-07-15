@@ -560,8 +560,16 @@ p{
 
 @media(max-width:430px){
 
+    .about-us-container{
+
+        max-width: 100%;
+        min-height: 140vh;
+        position: relative;
+        bottom: -50px;  
+    }
+
     .payment-pathway h1{
-        font-size: 35px;
+        font-size: 30px;
         top: 40px;
         left: 50px;
         width: 300px;
@@ -569,7 +577,7 @@ p{
 
     .text p {
         left: 50px;
-        top: 170px;
+        top: 150px;
         width: 330px;
     }
 

@@ -25,7 +25,7 @@ const Landing = () => {
                         Together, we make money move.
                     </p>
                 </div>
-                <div className="discorver-botton">
+                <div className="discorver-botton-container">
                     <button className='discorver-botton'>Discover More <span><img src={Discovermorearrow} alt="" /></span></button>
                 </div>
 

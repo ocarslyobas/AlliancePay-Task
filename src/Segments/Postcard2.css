@@ -175,7 +175,7 @@
 @media(max-width:430px){
 
     .Postcard2-container{
-        top: 460px;
+        top: 700px;
         display: block;
     }
 
@@ -203,5 +203,31 @@
         right: 0px;
         top: 0px;
         background: #5FB083;
+    }
+
+    .card2-text{
+        width: 370px;
+        height: 300px;
+        font-family: 'DM Sans';
+        font-style: normal;
+        font-weight: 500;
+        font-size: 16px;
+        line-height: 36px;
+        color: #0F0F0F;
+        padding-left: 20px;
+        position: absolute;
+        bottom: -90px;
+    }
+
+    .card2-header{
+        width: 370px;
+        height: 93px;
+        font-family: 'Gayathri';
+        font-weight: 700;
+        font-size: 38px;
+        color: #0F0F0F;
+        padding-left: 0px;
+        position: absolute;
+        top: 90px;
     }
 }

@@ -85,7 +85,7 @@ h2{
     }
 
     .form-image{
-        min-width:390px;
+        min-width:375px;
         height: 300px;
     }
     
@@ -109,8 +109,12 @@ h2{
     @media(max-width: 1024px){
         .contact{
             margin-top: 40px;
-            margin-left:-40px ;   
+            margin-left:0px ;   
             width: 100%;
             
+        }
+
+        .form-container{
+            top: 1150px;
         }
     }
